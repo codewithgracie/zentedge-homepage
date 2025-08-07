@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaPhoneAlt, FaEnvelope, FaFacebookF, FaTwitter, FaLinkedinIn, FaInstagram } from 'react-icons/fa'
-import Logo from '../assets/logo.png' // Adjust path to your logo file
+import Logo from '../assets/Logo.png' // Adjust path to your logo file
 
 const Footer = () => {
   return (
