@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaPhoneAlt, FaEnvelope, FaFacebookF, FaTwitter, FaLinkedinIn, FaInstagram } from 'react-icons/fa'
-import Logo from '../assets/Logo.png' // Adjust path to your logo file
+import Logo from '../assets/Logo.png' 
 
 const Footer = () => {
   return (
@@ -9,7 +9,7 @@ const Footer = () => {
         
  
         <div className="flex-1 min-w-[220px] flex flex-col">
-          <img src={Logo} alt="ZentEdge Logo" className="h-12 mb-6" />
+          <img src={Logo} alt="ZentEdge Logo" className="h-10 w-auto max-w-[120px] mb-6" />
           <div className="flex space-x-4 text-gray-400">
             <a href="#" aria-label="Facebook" className="hover:text-white"><FaFacebookF size={20} /></a>
             <a href="#" aria-label="Twitter" className="hover:text-white"><FaTwitter size={20} /></a>
