@@ -23,10 +23,10 @@ const Navbar = () => {
             <ul className='hidden md:flex gap-7 text-white'>
                 <a href="#Header" className='cursor-pointer hover:text-green-400'>Home</a>
                 <a href="#About" className='cursor-pointer hover:text-green-400'>About</a>
-                <a href="#Header" className='cursor-pointer hover:text-green-400'>Service</a>
-                <a href="#Header" className='cursor-pointer hover:text-green-400'>Pricing</a>
-                <a href="#Header" className='cursor-pointer hover:text-green-400'>Projects</a>
-                <a href="#Header" className='cursor-pointer hover:text-green-400'>Contact</a>
+                <a href="#" className='cursor-pointer hover:text-green-400'>Service</a>
+                <a href="#" className='cursor-pointer hover:text-green-400'>Pricing</a>
+                <a href="#" className='cursor-pointer hover:text-green-400'>Projects</a>
+                <a href="#" className='cursor-pointer hover:text-green-400'>Contact</a>
             </ul>
             <button className='hidden md:block bg-white px-8 py-2 rounded-full'> Reach Out </button>
             <FaBars onClick={() => setShowMobileMenu(true)} className='md:hidden w-7 h-7 cursor-pointer text-white' />

@@ -4,7 +4,7 @@ import BG3 from '../assets/BG-3.jpg'
 
 const About = () => {
   return (
-    <div className='container mx-auto px-6 py-16 md:px-20 lg:px-32'>
+    <div className='container mx-auto px-6 py-16 md:px-20 lg:px-32' id='About'>
       {/* Top Heading */}
       <div className='text-center mb-12'>
         <h1 className='text-3xl sm:text-4xl font-bold'>
